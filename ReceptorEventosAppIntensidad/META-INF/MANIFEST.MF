@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ReceptorEventosAppIntensidad
+Bundle-SymbolicName: ReceptorEventosAppIntensidad
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: receptoreventosappintensidad.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: gpio.servicio,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.service.event
+Bundle-ActivationPolicy: lazy

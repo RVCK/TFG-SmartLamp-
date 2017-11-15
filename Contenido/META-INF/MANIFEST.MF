@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Contenido
+Bundle-SymbolicName: Contenido
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: javax.crypto,
+ javax.crypto.spec,
+ org.osgi.framework;version="1.7.0"
+Export-Package: contenidos,
+ contenidos.servicio
+Bundle-Activator: contenidos.ContentManager
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: jars/twitter4j-core-4.0.4.jar,.

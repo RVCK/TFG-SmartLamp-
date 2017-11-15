@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Gpio
+Bundle-SymbolicName: Gpio
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: gpio.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: gpio.servicio
+Import-Package: org.osgi.framework;version="1.7.0"
+Bundle-ClassPath: jars/pi4j-core.jar,.
+
+
+

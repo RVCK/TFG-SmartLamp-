@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ReceptorEventos
+Bundle-SymbolicName: ReceptorEventosTwitter
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: receptoreventos.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: contenidos,
+ gpio.servicio,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.service.event
+Bundle-ActivationPolicy: lazy
